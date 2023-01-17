@@ -19,7 +19,7 @@
 >5. textContent 
 
 ##### 자세한 설명은 블로그 참고 부탁드립니다.
-> 1. [html,css]("https://judith-hopps.tistory.com/168","tstory")
-> 2. [javascript]("https://judith-hopps.tistory.com/172","tstory")
+> 1. [html,css](https://judith-hopps.tistory.com/168,"tstory")
+> 2. [javascript](https://judith-hopps.tistory.com/172,"tstory")
 
 
