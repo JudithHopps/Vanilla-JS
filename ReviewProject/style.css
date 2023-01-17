@@ -1,0 +1,133 @@
+/* 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+/* ===== 변수 구간 ===== */
+:root {
+  --color-main: rgb(255,232,232);
+  --color-background: rgba(233, 246, 246, 0.63);
+  --color-author: rgb(242, 189, 189);
+  
+  --font-size-title: 44px;
+  --font-size-subtitle: 42px;
+  --font-size-author: 20px;
+  --font-size-text: 18px;
+
+  --transition: all 0.3s linear;
+  --img-size : 230px;
+}
+
+/* ===== 리셋 구간 ===== */
+
+body {
+  margin: 0;
+  font-family: "Dongle", sans-serif;
+  background-color: var(--color-background);
+  /* 개발용 설정 */
+  min-height: 50vh;
+  min-width: 30vw;
+}
+h4,p {
+  margin:0px;
+  padding:0px;
+}
+
+/* ===== 메인 구간 ===== */
+main{
+  text-align: center;
+
+}
+/* title */
+.title{
+  font-size: var(--font-size-title);
+  text-decoration: underline 4px var(--color-main);
+  text-underline-position:under;  
+}
+
+/* ===== 책 소개 구간 ===== */
+
+.book{
+  background-color: white;
+  width:50vw;
+  margin:auto;
+}
+.book_image{
+  padding: 1rem;
+  /* 이미지 정렬 */
+  display:block;
+  margin:auto;
+
+  width:var(--img-size);
+  height: var(--img-size);
+  background-color: white;
+  overflow: hidden;
+}
+.book h4{
+  font-size: var(--font-size-subtitle);
+  
+}
+#book_author{
+  font-size:var(--font-size-author);
+  color:var(--color-author);
+  
+}
+#book_review{
+  font-size:var(--font-size-text);
+  height: 7.5rem;
+  padding: 0 10% 3% 10%;
+  
+}
+/* 버튼 */
+
+.prev-btn,
+.next-btn {
+  color: var(--color-main);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 ;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--color-author);
+}
+.random-btn {
+  margin-bottom: 0.5rem;
+  background: var(--color-main);
+  color: white;
+  padding: 0.15rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  transition: var(--transition);
+  border-color: white;
+  cursor: pointer;
+}
+.random-btn:hover {
+  background: var(--color-author);
+  color: white;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX( -50% );
+  color:gray;
+  opacity: 30%;
+}
+
+
+/* 스크린 리더용 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
