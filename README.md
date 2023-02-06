@@ -29,7 +29,7 @@
 
 
 
-## 2. [Review 사이트](https://subtle-zuccutto-5a225d.netlify.app/counterproject/)
+## 2. [Count 사이트](https://subtle-zuccutto-5a225d.netlify.app/counterproject/)
 
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcEzGz2%2FbtrWBh0flz2%2F1u0tKwPpiqFnMw5Z8BJpk0%2Fimg.png"
